@@ -29,7 +29,7 @@ for ilst in range(len(lst)) :
     # print(ilst[0])
     for jup in up :
         # print("log")
-        print(jup)
+        # print(jup)
         if lst[ilst][0]==jup :
             print(lst[ilst][0] , "#1")
             print(jup , "#2")
