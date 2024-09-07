@@ -28,11 +28,12 @@ for i in range(len(lst)) :
         if lst[i][0]>lst[j+1][0] :
             lst[j], lst[j+1] = lst[j+1], lst[j]
 
+check = []
 for i in range(len(lst)) :
-    for iup in up :
-        if iup==lst[i][0] :
-            origin = lst[i][1]
-            if origin in grade_dict :
-                lst[i][1] = grade_dict[origin]
+    if lst[i][0] in up :
+        original = lst[i][1]
+        if original in grade_dict :
+            lst[i][1] = grade_dict[original]
+            check.append(lst[i][1])
 
-print(lst)
+print(check)
