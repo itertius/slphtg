@@ -10,8 +10,6 @@ match x :
     case x if x==0 :
         if x%2==0 :
             check = ["zero", "even"]
-        else :
-            check = ["zero", "odd"]
     case x if x<0 :
         if x%2==0 :
             check = ["negative", "even"]

@@ -17,5 +17,6 @@ for i in range(len(lst)) :
             lst[j+1][0] = temp
 
 print(lst)
+print(lst[0][0])
 
 print(up)
